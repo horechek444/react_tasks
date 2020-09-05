@@ -11,7 +11,11 @@ import Task7 from './Tasks/Task-7';
 import Task8 from './Tasks/Task-8';
 import Task9 from './Tasks/Task-9';
 import Task10 from './Tasks/Task-10';
-import Task11 from "./Tasks/Task-11";
+import Task11 from './Tasks/Task-11';
+import Task12 from './Tasks/Task-12';
+import Task13 from './Tasks/Task-13';
+import Task14 from './Tasks/Task-14';
+import Task15 from './Tasks/Task-15';
 import * as serviceWorker from './serviceWorker';
 
 // Задачи на рендеринг 1 - 4;
@@ -20,6 +24,9 @@ import * as serviceWorker from './serviceWorker';
 // Задача на условия 8;
 // Задача на циклы 9;
 // Задачи на методы 10 - 11;
+// Задача на стейт 12;
+// Задачи на события 13 - 14;
+// Задача на setState 15;
 
 ReactDOM.render(
   <React.StrictMode>
@@ -34,6 +41,10 @@ ReactDOM.render(
       <Task9 />
       <Task10 />
       <Task11 />
+      <Task12 />
+      <Task13 />
+      <Task14 />
+      <Task15 />
   </React.StrictMode>,
   document.getElementById('root')
 );
