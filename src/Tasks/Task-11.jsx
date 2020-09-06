@@ -18,6 +18,6 @@ export default class Task11 extends React.Component {
 
     render() {
         const sum = this.getNum1() + this.getNum2();
-        return <div>текст {sum}</div>;
+        return <div><h3>Task 11:</h3>текст {sum}</div>;
     }
 }

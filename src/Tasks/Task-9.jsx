@@ -16,6 +16,6 @@ export default class Task9 extends React.Component {
         const list = arr.map(function (item, index){
             return <li key={index}>{item}</li>;
         })
-        return <ul>{list}</ul>;
+        return <div><h3>Task 9:</h3><ul>{list}</ul></div>;
     }
 }

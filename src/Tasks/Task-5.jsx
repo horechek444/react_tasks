@@ -8,8 +8,8 @@ export default class Task5 extends React.Component {
     // </div>
     render() {
         const attr = 'block';
-        return (
-            <div id={attr}>текст</div>
+        return (<div><h3>Task 5:</h3><div id={attr}>текст</div></div>
+
         );
     }
 }

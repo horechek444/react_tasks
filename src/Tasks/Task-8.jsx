@@ -9,9 +9,9 @@ export default class Task8 extends React.Component {
     render() {
         const show = true;
         if (show) {
-            return <div>текст 1</div>;
+            return <div><h3>Task 8:</h3>текст 1</div>;
         } else {
-            return <div>текст 2</div>;
+            return <div><h3>Task 8:</h3>текст 2</div>;
         }
     }
 }

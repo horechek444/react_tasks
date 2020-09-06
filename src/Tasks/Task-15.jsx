@@ -22,8 +22,8 @@ export default class Task15 extends React.Component {
 
     render() {
         return (
-
             <div>
+                <h3>Task 15:</h3>
                 <p>
                 имя: {this.state.name},
                 возраст: {this.state.age}

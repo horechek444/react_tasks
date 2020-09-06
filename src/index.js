@@ -16,6 +16,17 @@ import Task12 from './Tasks/Task-12';
 import Task13 from './Tasks/Task-13';
 import Task14 from './Tasks/Task-14';
 import Task15 from './Tasks/Task-15';
+import Task16 from './Tasks/Task-16';
+import Task17 from './Tasks/Task-17';
+import Task18 from './Tasks/Task-18';
+import Task19 from './Tasks/Task-19';
+import Task20 from './Tasks/Task-20';
+import Task21 from './Tasks/Task-21';
+import Task22 from './Tasks/Task-22';
+import Task23 from './Tasks/Task-23';
+import Task24 from './Tasks/Task-24';
+import Task25 from './Tasks/Task-25';
+import Task26 from './Tasks/Task-26';
 import * as serviceWorker from './serviceWorker';
 
 // Задачи на рендеринг 1 - 4;
@@ -27,6 +38,10 @@ import * as serviceWorker from './serviceWorker';
 // Задача на стейт 12;
 // Задачи на события 13 - 14;
 // Задача на setState 15;
+// Задача на сокращенный if 16;
+// Задачи на показ элементов 17 - 19;
+// Задачи на циклы 20 - 22;
+// Задачи на продвинутую работу с циклами 23 - 26;
 
 ReactDOM.render(
   <React.StrictMode>
@@ -45,6 +60,17 @@ ReactDOM.render(
       <Task13 />
       <Task14 />
       <Task15 />
+      <Task16 />
+      <Task17 />
+      <Task18 />
+      <Task19 />
+      <Task20 />
+      <Task21 />
+      <Task22 />
+      <Task23 />
+      <Task24 />
+      <Task25 />
+      <Task26 />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -12,6 +12,6 @@ export default class Task10 extends React.Component {
     }
 
     render() {
-        return <div>{this.getText()}</div>;
+        return <div><h3>Task 10:</h3>{this.getText()}</div>;
     }
 }

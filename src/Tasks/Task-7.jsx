@@ -8,6 +8,6 @@ export default class Task7 extends React.Component {
             border: '1px solid black',
             borderRadius: '30px'
         }
-        return <div style={css}>текст</div>;
+        return <div><h3>Task 7:</h3><div style={css}>текст</div></div>;
     }
 }

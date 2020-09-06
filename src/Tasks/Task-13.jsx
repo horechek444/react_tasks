@@ -8,6 +8,6 @@ export default class Task13 extends React.Component {
     }
 
     render() {
-        return <p><button onClick={this.showMessage}>Нажми для приветствия</button></p>;
+        return <div><h3>Task 13:</h3><p><button onClick={this.showMessage}>Нажми для приветствия</button></p></div>;
     }
 }

@@ -15,6 +15,6 @@ export default class Task14 extends React.Component {
     }
 
     render() {
-        return <p><button onClick={this.showName.bind(this)}>Нажми для имени</button></p>;
+        return <div><h3>Task 14:</h3><p><button onClick={this.showName.bind(this)}>Нажми для имени</button></p></div>;
     }
 }

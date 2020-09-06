@@ -8,6 +8,6 @@ export default class Task6 extends React.Component {
     // </div>
     render() {
         const str = 'block';
-        return <div className={str}>текст</div>;
+        return <div><h3>Task 6:</h3><div className={str}>текст</div></div>;
     }
 }
