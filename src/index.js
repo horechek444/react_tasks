@@ -44,7 +44,7 @@ import * as serviceWorker from './serviceWorker';
 // Задачи на продвинутую работу с циклами 23 - 26;
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
       <Task1 />
       <Task2 />
       <Task3 />
@@ -71,8 +71,7 @@ ReactDOM.render(
       <Task24 />
       <Task25 />
       <Task26 />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
-
 serviceWorker.unregister();
