@@ -27,6 +27,12 @@ import Task23 from './Tasks/Task-23';
 import Task24 from './Tasks/Task-24';
 import Task25 from './Tasks/Task-25';
 import Task26 from './Tasks/Task-26';
+import Task27 from './Tasks/Task-27';
+import Task28 from './Tasks/Task-28';
+import Task29 from './Tasks/Task-29';
+import Task30 from './Tasks/Task-30';
+import Task31 from './Tasks/Task-31';
+import Task32 from './Tasks/Task-32';
 import * as serviceWorker from './serviceWorker';
 
 // Задачи на рендеринг 1 - 4;
@@ -42,6 +48,7 @@ import * as serviceWorker from './serviceWorker';
 // Задачи на показ элементов 17 - 19;
 // Задачи на циклы 20 - 22;
 // Задачи на продвинутую работу с циклами 23 - 26;
+// Задачи на инпуты 27 - 30;
 
 ReactDOM.render(
   <>
@@ -71,6 +78,12 @@ ReactDOM.render(
       <Task24 />
       <Task25 />
       <Task26 />
+      <Task27 />
+      <Task28 />
+      <Task29 />
+      <Task30 />
+      <Task31 />
+      <Task32 />
   </>,
   document.getElementById('root')
 );
