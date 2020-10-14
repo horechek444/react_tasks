@@ -24,7 +24,7 @@ export default class Task31 extends React.Component {
         return <form onSubmit={this.handleSubmit.bind(this)}>
             <h3>Task 31:</h3>
             {message}
-            <input value={this.state.value} onChange={this.handleChange.bind(this)} />
+            <input value={this.state.value} onChange={this.handleChange.bind(this)} placeholder={'Введите текст'} />
             <input type="submit" />
         </form>
     }

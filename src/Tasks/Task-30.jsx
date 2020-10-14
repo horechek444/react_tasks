@@ -19,7 +19,7 @@ export default class Task30 extends React.Component {
         return <form>
             <h3>Task 30:</h3>
             <div>{array}</div>
-            <input value={this.state.value} onChange={this.handleChange.bind(this)} />
+            <input value={this.state.value} onChange={this.handleChange.bind(this)} placeholder={'Ф И О'} />
         </form>
     }
 }
