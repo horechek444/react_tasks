@@ -35,6 +35,7 @@ import Task31 from './Tasks/Task-31';
 import Task32 from './Tasks/Task-32';
 import Task33 from './Tasks/Task-33';
 import Task34 from './Tasks/Task-34';
+import Task35 from './Tasks/Task-35';
 import * as serviceWorker from './serviceWorker';
 
 // Задачи на рендеринг 1 - 4;
@@ -89,6 +90,7 @@ ReactDOM.render(
       <Task32 />
       <Task33 />
       <Task34 />
+      <Task35 />
   </>,
   document.getElementById('root')
 );
